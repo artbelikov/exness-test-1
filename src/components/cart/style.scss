@@ -1,0 +1,23 @@
+#cart {
+  .cart-header {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .empty-cart-warn{
+    text-align: center;
+    font-size: 14px;
+  }
+  .cart-body {
+    table{
+      width: 100%;
+    }
+  }
+  .cart-footer{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .cart-total-price{
+    font-weight: bold;
+    text-align: right;
+  }
+}

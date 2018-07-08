@@ -1,0 +1,30 @@
+.integer-selector{
+  button{
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+    span{
+      font-size: 14px;
+    }
+    &.integer-selector-minus{
+      margin-right: 5px;
+      &:after{
+        content: '➖';
+      }
+    }
+    &.integer-selector-plus{
+      margin-left: 5px;
+      &:after{
+        content: '➕';
+      }
+    }
+  }
+  &.disabled{
+    button{
+      display: none;
+    }
+  }
+}

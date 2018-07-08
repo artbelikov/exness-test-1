@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "removeComments": true,
+    "sourceMap": true,
+    "lib": ["DOM", "es2015", "es2017"],
+    "baseUrl": "src",
+    "jsx": "react",
+    "typeRoots": [
+      "node_modules/@types",
+      "src/@types"
+    ]
+  }
+}
